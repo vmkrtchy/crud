@@ -1,0 +1,100 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6b18c3;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+form {
+    background-color: #6b18c3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 80%;
+    margin: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #bb54fb;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2d0241;
+}
+
+
+/* Add more styling as needed */
+
+
+/* style.css */
+
+tr {
+    background-color: #6b18c3; /* White background color */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+
+}
+
+tr:hover {
+    background-color: #b978ff; /* Light gray background color on hover */
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+a.update, a.delete {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #9910fb; /* Blue color */
+    border: 1px solid #9910fb; /* Blue border */
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transitions */
+}
+
+a.update:hover, a.delete:hover {
+    background-color: #1b032d; /* Blue background color on hover */
+    color: #fff; /* White text color on hover */
+}
